@@ -1,4 +1,4 @@
-package exemplos.laco;
+package exemplos;
 
 import javax.swing.JOptionPane;
 

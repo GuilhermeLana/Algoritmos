@@ -1,6 +1,6 @@
 package exercicios.numero2;
 
-public class Exercicio4 {
+public class Exercicio04 {
 	//Imprima no console uma lista de 0 a 20 e de 30 a 40, utilizando apenas um for;
 	public static void main(String[] args) {
 		for(int aux = 0; aux <= 40; aux++){

@@ -1,4 +1,4 @@
-package exemplos.laco;
+package exemplos;
 
 import java.util.Scanner;
 

@@ -2,7 +2,7 @@ package exercicios.numero2;
 
 import java.util.Scanner;
 
-public class Exercicio5 {
+public class Exercicio05 {
 	//Pergunte para o usuário até que número ele quer imprimir, 
 	//e imprima do 0 até o número desejado pelo usuário;
 	public static void main(String[] args) {
