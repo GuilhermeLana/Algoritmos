@@ -6,9 +6,9 @@ public class Exercicio23 {
 	public static void main(String[] args) {
 		int _qntLinhas = Integer.parseInt(JOptionPane.showInputDialog("Qual a quantidade de linhas da pirâmide"));
 		String saida = "";
-		int numero = _qntLinhas + 1;
-		for(int i = 0; i <= _qntLinhas; i++){
-			for(int x = numero; x < i; x++){
+		int numero = _qntLinhas;
+		for(int i = numero; i <= _qntLinhas; i++){
+			for(int x = 0; x < i; x++){
 				saida += numero;
 			}
 			saida += "\n";
