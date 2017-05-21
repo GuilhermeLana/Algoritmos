@@ -7,14 +7,15 @@ public class Exercicio23 {
 		int _qntLinhas = Integer.parseInt(JOptionPane.showInputDialog("Qual a quantidade de linhas da pirâmide"));
 		String saida = "";
 		int numero = _qntLinhas;
-		for(int i = numero; i <= _qntLinhas; i++){
+		for(int i = numero; i >= 0; i--){
 			for(int x = 0; x < i; x++){
 				saida += numero;
 			}
 			saida += "\n";
 			numero--;
+			System.out.println(saida);
 		}
-		System.out.println(saida);
+		
 	}
 
 
