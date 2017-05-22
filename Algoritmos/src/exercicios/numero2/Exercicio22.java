@@ -9,7 +9,12 @@ public class Exercicio22 {
 		int numero = 0;
 		for(int i = 0; i <= _qntLinhas; i++){
 			for(int x = 0; x < i; x++){
-				saida += numero;
+				if(numero < 10){
+					saida += "0" + numero;	
+				}
+				else{
+					saida += numero;
+				}				
 			}
 			saida += "\n";
 			numero++;
