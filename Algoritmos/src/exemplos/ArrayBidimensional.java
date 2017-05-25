@@ -1,8 +1,8 @@
-package exemplos.array;
+package exemplos;
 
 import java.text.DecimalFormat;
 
-public class ArrayBidimensionalExemplo {
+public class ArrayBidimensional {
 
 	public static void main(String[] args) {
 		//Declaração de um array 4x2 posições

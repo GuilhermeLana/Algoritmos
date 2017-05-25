@@ -1,6 +1,6 @@
-package exemplos.array;
+package exemplos;
 
-public class ArrayUnidimensionalExemplo {
+public class ArrayUnidimensional {
 
 	public static void main(String[] args) {
 		//Declaração de um array com 4 posições

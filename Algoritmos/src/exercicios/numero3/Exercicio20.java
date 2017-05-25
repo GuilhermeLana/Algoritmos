@@ -13,6 +13,7 @@ public class Exercicio20 {
 		System.out.println(texto + " " + outroTexto);
 		scanner.close();
 		
+		
 	}
 
 }
