@@ -93,6 +93,7 @@ public class cardapio {
         case 15: System.out.println("O valor do pedido é de R$" + pizzas[14]);
         break;
         default: System.out.println("Digite um número valido!");
+        break;
         }
         scanner.close();
 	}
