@@ -7,10 +7,14 @@ public class Exercicio13 {
 		 * utilizando uma variável.*/
 		int numeros[] = new int[10];
 		int y = 1;
-		for (int i = 3; i < numeros.length - 2; i++) {
-		   numeros[i] = y;
-		   y++;	
-		   System.out.println(numeros[i]);
+		for (int i = 3; i < numeros.length; i++) {
+		   if( y > 0 && y < 6){
+			   numeros[i] = y;	
+			   y++;
+		   }
+		}
+		for (int i = 0; i < numeros.length; i++) {
+			System.out.println(numeros[i]);
 		}
 	}
 
